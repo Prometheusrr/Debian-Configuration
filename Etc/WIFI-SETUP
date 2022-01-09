@@ -1,0 +1,17 @@
+FedoraOS
+sudo dnf -y upgrade
+sudo dnf install -y make git kernel-headers kernel-devel elfutils-libelf-devel
+sudo dnf install -y dkms
+chmod +x dkms-install.sh
+chmod +x dkms-remove.sh
+sudo ./dkms-install.sh
+http://www.cudy.com/wu650_software_download
+
+POP-OS
+sudo apt update
+sudo apt install build-essential git dkms
+git clone https://github.com/brektrou/rtl8821CU.git
+cd rtl8821CU
+chmod +x dkms-install.sh
+sudo ./dkms-install.sh
+sudo modprobe 8821cu 

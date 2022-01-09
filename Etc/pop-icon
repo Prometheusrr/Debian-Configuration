@@ -1,0 +1,3 @@
+#!/bin/bash
+
+git clone https://github.com/pop-os/icon-theme pop-icon-theme && cd pop-icon-theme && meson build && sudo ninja -C "build" install
