@@ -20,12 +20,16 @@ chmod +x Etc/pop-gtk
 ./Etc/pop-gtk
 chmod +x Etc/pop-icon
 ./Etc/pop-icon
+chmod +x Etc/vscodium
+./Etc/vscodium
 
 #Anaconda install
 wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
 chmod +x Anaconda*
 ./Anaconda*
 sudo cp -r anaconda.desktop /usr/share/applications/
+sudo desktop-file-install anaconda.desktop
+sudo update-desktop-database
 
 #Arduino
 wget https://downloads.arduino.cc/arduino-1.8.19-linux64.tar.xz 
