@@ -147,4 +147,6 @@ alias tn='tmux new -s prometheus'
 alias ti='tmux attach -t prometheus'
 alias tls='tmux ls'
 alias picture='kitty +kitten icat'
+alias snakeOFF='conda config --set auto_activate_base false && exec bash'
+alias snakeON='conda config --set auto_activate_base true'
 
