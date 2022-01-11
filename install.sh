@@ -22,8 +22,6 @@ chmod +x Etc/pop-icon
 ./Etc/pop-icon
 chmod +x Etc/vscodium
 ./Etc/vscodium
-chmod +x Etc/Wifi.sh
-./Etc/Wifi.sh
 
 #Anaconda install
 wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
