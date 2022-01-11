@@ -6,6 +6,7 @@ sudo apt purge libreoffice* gnome-2048 gnome-chess gnome-color-manager gnome-con
 sudo apt autoremove -y
 
 #Move and Copy files
+mv Photo-Videos/ $HOME/Pictures
 rm -rf ~/.bashrc
 cp -r Etc/bashrc $HOME/.bashrc
 cp -r Apps/ $HOME/Documents/Apps
