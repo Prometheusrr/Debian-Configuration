@@ -4,7 +4,7 @@
 sudo apt update
 
 #install packages
-sudo apt install build-essential git dkms -y
+sudo apt install build-essential git dkms bc -y
 
 #Git clone
 git clone https://github.com/brektrou/rtl8821CU.git
