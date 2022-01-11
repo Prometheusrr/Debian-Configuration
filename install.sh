@@ -1,9 +1,9 @@
 #!/bin/bash
 
 #Packages
-sudo apt install apt-transport-https curl git neofetch kitty sassc meson libglib2.0-dev build-essential dkms nautilus-nextcloud variety
-sudo apt purge libreoffice* gnome-2048 gnome-chess gnome-color-manager gnome-contacts gnome-characters aisleriot gnome-games gnome-music gnome-logs gnome-klotski gnome-mahjongg gnome-mines gnome-nibbles gnome-documents gnome-sudoku gnome-sushi gnome-taquin gnome-robots hitori firefox-esr five-or-more four-in-a-row lightsoff rhythmbox quadrapassel swell-foop gnome-sound-recorder gnome-screenshot cheese simple-scan gnome-font-viewer gnome-maps shotwell
-sudo apt autoremove
+sudo apt install apt-transport-https curl git neofetch kitty sassc meson libglib2.0-dev build-essential dkms nautilus-nextcloud variety wireguard flameshot -y
+sudo apt purge libreoffice* gnome-2048 gnome-chess gnome-color-manager gnome-contacts gnome-characters aisleriot gnome-games gnome-music gnome-logs gnome-klotski gnome-mahjongg gnome-mines gnome-nibbles gnome-documents gnome-sudoku gnome-sushi gnome-taquin gnome-robots hitori firefox-esr five-or-more four-in-a-row lightsoff rhythmbox quadrapassel swell-foop gnome-sound-recorder gnome-screenshot cheese simple-scan gnome-font-viewer gnome-maps shotwell -y
+sudo apt autoremove -y
 
 #Move and Copy files
 rm -rf ~/.bashrc
@@ -22,6 +22,8 @@ chmod +x Etc/pop-icon
 ./Etc/pop-icon
 chmod +x Etc/vscodium
 ./Etc/vscodium
+chmod +x Etc/Wifi.sh
+./Etc/Wifi.sh
 
 #Anaconda install
 wget https://repo.anaconda.com/archive/Anaconda3-2021.11-Linux-x86_64.sh
