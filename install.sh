@@ -38,7 +38,7 @@ sudo ./arduino-1.8.19/install.sh
 
 sudo apt autoremove -y
 
-echo "DONE"
+clear && exec bash
 
 
 
