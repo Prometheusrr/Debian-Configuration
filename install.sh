@@ -4,7 +4,7 @@ xdg-user-dirs-update
 
 #Update Packages
 echo "UPDATING"
-echo "sudo apt update $$ sudo apt upgrade -y"
+echo "sudo apt update && sudo apt upgrade -y"
 
 #Switch to pipewire
 echo "SWITCHING TO PIPEWIRE"
