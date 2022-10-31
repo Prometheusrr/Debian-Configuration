@@ -4,7 +4,7 @@ xdg-user-dirs-update
 
 #Update Packages
 echo "UPDATING"
-echo "sudo apt update && sudo apt upgrade -y"
+sudo apt update && sudo apt upgrade -y
 
 #Switch to pipewire
 echo "SWITCHING TO PIPEWIRE"
@@ -39,9 +39,3 @@ sudo ./arduino-1.8.19/install.sh
 sudo apt autoremove -y
 
 clear && exec bash
-
-
-
-
-
-
