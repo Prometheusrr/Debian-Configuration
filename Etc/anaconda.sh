@@ -9,6 +9,7 @@ wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
 bash Anaconda3-2022.10-Linux-x86_64.sh
 
 cp -r Icon/ $HOME/anaconda3/ 
+ls $HOME/anaconda3/Icon
 
 echo "#!/usr/bin/env xdg-open" > anaconda.desktop
 echo '[Desktop Entry]' >> anaconda.desktop
