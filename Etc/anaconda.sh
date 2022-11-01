@@ -8,13 +8,15 @@ wget https://repo.anaconda.com/archive/Anaconda3-2022.10-Linux-x86_64.sh
 
 bash Anaconda3-2022.10-Linux-x86_64.sh
 
+cp -r Icon/ $HOME/anaconda3/ 
+
 echo "#!/usr/bin/env xdg-open" > anaconda.desktop
 echo '[Desktop Entry]' >> anaconda.desktop
 echo 'Name=Anaconda' >> anaconda.desktop
 echo 'Version=1.0' >> anaconda.desktop
 echo 'Type=Application' >> anaconda.desktop
 echo Exec=$HOME/anaconda3/bin/anaconda-navigator >> anaconda.desktop
-echo Icon=$HOME/anaconda3/lib/python3.7/site-packages/anaconda_navigator/static/images/anaconda-icon-256x256.png >> anaconda.desktop
+echo Icon=$HOME/anaconda3/Icon/anaconda-icon-256x256.png >> anaconda.desktop
 echo 'Comment=Open Anaconda Navigator' >> anaconda.desktop
 echo 'Terminal=false' >> anaconda.desktop
 
