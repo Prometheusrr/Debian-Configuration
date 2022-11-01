@@ -35,7 +35,9 @@ cp -r Apps/ $HOME/Documents/Apps
 cp -r fonts/ $HOME/.fonts
 rm -rf $HOME/.config/kitty/
 cp -r kitty/ $HOME/.config/
+echo "Config files Done"
 
+echo "----------------------------------"
 #Arduino
 wget https://downloads.arduino.cc/arduino-1.8.19-linux64.tar.xz 
 tar -xf arduino*
