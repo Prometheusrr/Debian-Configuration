@@ -1,7 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Name=Anaconda
-Exec=/home/prometheus/anaconda3/bin/anaconda-navigator
-Icon=/home/prometheus/anaconda3/lib/python3.9/site-packages/anaconda_navigator/app/icons/Icon1024.png
-Terminal=false
