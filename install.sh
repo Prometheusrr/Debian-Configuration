@@ -44,7 +44,17 @@ tar -xf arduino*
 sudo ./arduino-1.8.19/install.sh
 
 echo "----------------------------------"
+#Install Vscodium
 bash Etc/vscodium.sh
+
+echo "----------------------------------"
+#Install Anaconda
+bash Etc/anaconda.sh
+
+echo "----------------------------------"
+#Raspberrypi Imager
+wget https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb
+sudo dpkg -i imager_latest_amd64.deb
 
 echo "----------------------------------"
 sudo apt autoremove -y
