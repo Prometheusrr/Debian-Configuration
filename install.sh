@@ -44,6 +44,9 @@ tar -xf arduino*
 sudo ./arduino-1.8.19/install.sh
 
 echo "----------------------------------"
+bash Etc/vscodium.sh
+
+echo "----------------------------------"
 sudo apt autoremove -y
 
 echo "----------------------------------"
