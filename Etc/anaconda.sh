@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir $HOME/.local/share/applications
+mkdir $HOME/.local/share/applications 2>/dev/null
 
 sudo apt-get install desktop-file-utils libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6 -y
 
