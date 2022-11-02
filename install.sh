@@ -28,7 +28,7 @@ bash Etc/themes.sh
 
 echo "----------------------------------"
 #Move and Copy files
-mv Photo-Videos/ $HOME/Pictures
+mv Photo-Videos/ $HOME/Pictures 2>/dev/null
 rm -rf ~/.bashrc
 cp -r Etc/bashrc $HOME/.bashrc
 cp -r Apps/ $HOME/Documents/Apps
@@ -42,6 +42,7 @@ echo "----------------------------------"
 wget https://downloads.arduino.cc/arduino-1.8.19-linux64.tar.xz 
 tar -xf arduino*
 sudo ./arduino-1.8.19/install.sh
+rm -rf arduino-1.8.19
 
 echo "----------------------------------"
 #Install Vscodium
