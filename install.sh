@@ -55,6 +55,7 @@ echo "----------------------------------"
 #Raspberrypi Imager
 wget https://downloads.raspberrypi.org/imager/imager_latest_amd64.deb
 sudo dpkg -i imager_latest_amd64.deb
+sudo apt install --fix-broken -y
 
 echo "----------------------------------"
 sudo apt autoremove -y
