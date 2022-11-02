@@ -4,6 +4,7 @@
 if [ $DESKTOP_SESSION = 'plasma' ]; then
     mkdir $HOME/.local/share/aurorae 2>/dev/null
     mkdir $HOME/.local/share/aurorae/themes 2>/dev/null
+    mkdir $HOME/.local/share/color-schemes
     cp -r Theme/BreezeAurorae $HOME/.local/share/aurorae/themes/ 
     cp Theme/OrchisDark.colors $HOME/.local/share/color-schemes/
     ls $HOME/.local/share/aurorae/themes/
