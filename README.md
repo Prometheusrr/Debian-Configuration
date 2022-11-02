@@ -12,8 +12,13 @@ git clone https://github.com/Prometheusrr/Debian-Confirguration
 
 # Install
 
+bash install.sh
+
+# Install
+
 cd Debian-Configuration
 
 chmod +x install.sh
 
 ./install.sh
+
