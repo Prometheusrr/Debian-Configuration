@@ -14,7 +14,7 @@ git clone https://github.com/Prometheusrr/Debian-Confirguration
 
 bash install.sh
 
-# Install
+# Install (Alt)
 
 cd Debian-Configuration
 
