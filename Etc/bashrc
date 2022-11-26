@@ -149,4 +149,6 @@ alias tls='tmux ls'
 alias picture='kitty +kitten icat'
 alias snakeOFF='conda config --set auto_activate_base false && exec bash'
 alias snakeON='conda config --set auto_activate_base true'
+alias backup='bash /home/prometheus/.backup/Backup.sh > /opt/log/backup.log 2>&1'
+alias readbackup='cat /opt/log/backup.log | grep "Date and Time:"'
 
