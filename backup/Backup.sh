@@ -12,7 +12,7 @@ rm -r $HOME/SMB/Backup/* 2>/dev/null
 
 # Sets variable for current date and time to name backup dir
 currentdate=`date +"%Y-%m-%d:%H:%M"`
-echo Date and Time: $currentdate
+echo Date and Time: $currentdate Last Backup
 
 # This is the backup for my configurations 
 echo "BACKUP"
