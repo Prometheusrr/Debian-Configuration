@@ -3,6 +3,9 @@
 # This makes sure to mount all drive to the system
 mount $HOME/SMB 2>/dev/null
 
+# Make Log dir
+mkdir /opt/log 2>/dev/null
+
 # Remove Past Backups
 rm -r $HOME/SSD/Backup/* 2>/dev/null
 rm -r $HOME/SMB/Backup/* 2>/dev/null
