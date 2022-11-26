@@ -32,7 +32,7 @@ cat /etc/fstab > $HOME/SSD/Backup/$currentdate/HiddenConfigs/fstab.txt
 cp $HOME/.smb $HOME/SSD/Backup/$currentdate/HiddenConfigs/SMB.txt
 cp $HOME/.backup/rootbashrc.bk $HOME/SSD/Backup/$currentdate/HiddenConfigs/rootbrc.bk
 crontab -l > $HOME/SSD/Backup/$currentdate/HiddenConfigs/crontab.txt 2>/dev/null
-cp $HOME/.bashrc $HOME/SSD/Backup/currentdate/HiddenConfigs/Userbrc.txt
+cp $HOME/.bashrc $HOME/SSD/Backup/$currentdate/HiddenConfigs/Userbrc.txt
 
 # Compress Backup dir
 tar -czvf $HOME/SSD/Backup/$currentdate.tar.gz $HOME/SSD/Backup/$currentdate 2>/dev/null
